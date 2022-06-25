@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #F1EEED;
+}
+header#mainHeader{
+    width: 100%;
+    height: auto;
+    position:relative;
+}
+div#headerContainer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position:relative;
+    
+}
+/*nav*/
+nav {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+div#headerTop {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+ul#ulTopRight {
+    list-style-type: none;
+    /*display: inline-block;*/
+    float: right; 
+}
+
+ul#ulTopRight li {
+    display: inline-block;
+    line-height: 50px;
+    border-right: 1px solid black;
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+ul#ulTopRight li:first-child {
+    padding-left: 0;
+}
+
+ul#ulTopRight li:last-child {
+    border-right: 0;
+}
+
+ul#ulTopRight li a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: azure;
+}
+
+ul#ulTopRight li a:hover, .menu:hover {
+    color:darksalmon;
+}
+li.menu{
+    display: inline-block;
+}
+.pullDownMenu{
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0,0.5);
+    min-width: 160px;
+}
+.pullDownMenu a{
+    display: block;
+    text-align: left;
+}
+.pullDownMenu a:hover{
+    color:azure;
+}
+.menu:hover .pullDownMenu{
+    display: block;
+}
+/*nav bitti*/
+/*#anasayfa{
+    padding-top: 100px;
+    padding-left: 32.5%;
+    display: inline-block;
+}*/
+/*section#anasayfa img{
+    padding-left: 20%;
+    padding-right: auto;
+    
+}*/
+div#MainPage section{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+section#anasayfa{
+    background-color:rgba(23, 17, 36, 0.5);
+}
+section#anasayfa h2{
+    padding-top: 100px;
+}
+section#etkinlik{
+    background-color:rgba(23, 17, 36, 0.5);
+}
+section#iletisim img{
+    width: 7%;
+    height: auto;
+    margin-left: 5%;
+    border-radius: 20%;
+}
+section#konum iframe{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    
+}
+footer{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background: rgb(0, 0, 0,0.5);
+}
+footer div{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 25px;
+}
+
+/*GALERİ*/
+#OldContainer{
+    width: 100%;
+    height: auto;
+}
+#baslik{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: black;
+    text-shadow: 2px 5px 5px gray;
+}
+
+.mainPart{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 80%;
+    margin:0 auto;
+    display: table;
+    padding: 5%;
+    border:1px solid #ccc;
+    background:#ccc ;
+    border-radius: 2%;
+}
+.mainPart .box{
+    float: left;
+    width: 22%;
+    height: auto;
+    /*border: 1px solid #848484;*/
+    padding: 1%;
+    margin-right: 7px;
+}
+.mainPart .box p{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: small;
+    
+}
+.mainPart .box:nth-child(5n+4){
+    margin-right: 0;
+}
+.mainPart .box *{
+    display: table;
+    margin: 0 auto;
+}
+.mainPart .box .title{
+    margin-top:5%;
+    font-size: 100%;
+    color: #000;
+    text-decoration: none;
+}
+.mainPart .box .info{
+    margin-top: 3%;
+    font-size: 100%;
+    color:#383838;
+    text-decoration: none;
+}
+.mainPart .box .info:hover , .title:hover{
+    color:lightseagreen;
+}
+.mainPart .box .title:hover{
+    color:mediumslateblue;
+}
+
+.mainPart .box .photograph img{
+    width: 100%;
+    height: auto;
+}
+.separator{
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+
